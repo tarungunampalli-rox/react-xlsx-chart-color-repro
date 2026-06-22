@@ -55,7 +55,8 @@ package's public API — feel free to route upstream.
 
 ### Reproduction
 
-<REPRO REPO LINK>
+Repo: https://github.com/tarungunampalli-rox/react-xlsx-chart-color-repro
+<!-- live demo: add Vercel URL after deploying -->
 
 ```bash
 npm install
