@@ -1,4 +1,6 @@
 # react-xlsx — chart color round-trip repro
+View web app: https://xlsx-save-repro.vercel.app/
+
 
 Minimal reproduction showing that re-serializing a chart-containing workbook
 through [`@extend-ai/react-xlsx`](https://github.com/extend-hq/react-xlsx) loses
