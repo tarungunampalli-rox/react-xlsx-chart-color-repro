@@ -1,0 +1,26 @@
+{
+  "name": "react-xlsx-chart-color-repro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/copy-wasm.mjs",
+    "dev": "vite",
+    "prebuild": "node scripts/copy-wasm.mjs",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate-sample": "python3 -m venv .venv && .venv/bin/pip install -q openpyxl && .venv/bin/python scripts/generate-sample.py"
+  },
+  "dependencies": {
+    "@extend-ai/react-xlsx": "0.12.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.3.5"
+  }
+}

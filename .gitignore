@@ -1,0 +1,9 @@
+node_modules
+dist
+public/duke_sheets_wasm_bg.wasm
+.venv
+__pycache__
+*.pyc
+.DS_Store
+*-output.json
+repro-screenshot.png
